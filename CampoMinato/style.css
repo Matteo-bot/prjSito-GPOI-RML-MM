@@ -1,0 +1,88 @@
+body {
+    background-color: #f2f1ef;
+    color: #723e31;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #a67564;
+    color: #f2f1ef;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Link */
+  a {
+    color: #a67564;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #d9b18e;
+  }
+  
+  /* Pulsanti */
+  button {
+    background-color: #a67564;
+    color: #f2f1ef;
+    border: none;
+    border-radius: 4px;
+    padding: 0.75rem 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d9b18e;
+  }
+  
+  /* Sezioni */
+  section {
+    background-color: #d9d2cc;
+    margin: 1.5rem auto;
+    padding: 2rem;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #723e31;
+    color: #f2f1ef;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9rem;
+    position: fixed;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .box-inline {
+    background-color: #d9a47a;
+    color: #5a2e1f;
+    padding: 30px 50px;
+    border: 1px solid #5a2e1f;
+    text-align: center;
+    width: 200px;
+  }
+
+  .grid-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centra tutto orizzontalmente */
+    gap: 30px; 
+  }
+
+  .row {
+    display: flex;
+    justify-content: center; /* centra i box nella riga */
+    gap: 20px;               /* spazio tra i due box */
+  }
