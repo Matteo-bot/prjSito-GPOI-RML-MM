@@ -59,3 +59,13 @@ body {
     padding: 1rem;
     font-size: 0.9rem;
   }
+
+  .box-inline {
+    display: inline-block;
+    background-color: #d9b18e;
+    border: 1px solid #723e31;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    margin-right: 1rem;
+  }
