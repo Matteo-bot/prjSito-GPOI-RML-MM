@@ -56,8 +56,13 @@ body {
     background-color: #723e31;
     color: #f2f1ef;
     text-align: center;
-    padding: 1rem;
+    padding: 1em;
     font-size: 0.9rem;
+    position: fixed;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 
   .box-inline {
